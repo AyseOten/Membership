@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang:"tr">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Üyelik formu
+    </title>
+
+    <link rel="icon" href="uyeol.jpg">
+    <link href="membership.css" type="text/css" rel="stylesheet" />
+    <script src="membership.js"></script>
+
+</head>
+
+<body>
+    <div class="all">
+
+        <div class="left">
+            <h1> Üyelik formu </h1>
+            <form action="" id="myForm">
+                <div class="row">
+                    <div class="col-25">
+                        <label for="username">Kullanıcı adı</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="username" name="username" required />
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-25">
+                        <label for="fullname">Adı Soyadı</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="fullname" name="fullname" required />
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-25">
+                        <label for="tel"> Telefon </label>
+                    </div>
+                    <div class="col-75">
+                        <input type="tel" id="tel" name="tel" placeholder="+90(5xx)-xxx-xx-xx.."/>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-25">
+                        <label for="adres">Adres</label>
+                    </div>
+                    <div class="col-75">
+                        <textarea id="adres" name="adres" 
+                            style="height:200px"></textarea>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <button type="post" id="submit-button" >Üye ol</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="right" id="right-side">
+
+        </div>
+
+    </div>
+</body>
+
+</html>
